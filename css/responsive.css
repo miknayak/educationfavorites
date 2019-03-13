@@ -1,0 +1,1180 @@
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: 1170px;
+    }
+    .next.col-sm-6{
+        text-align: right;
+    }
+    .education-list-pagination .pagination{
+        padding-right: 26px;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width: 1360px){
+.search-school-btn a{
+	width: 100%;
+}
+
+}
+
+@media screen and (max-width: 1360px){
+.about-find-bg{
+	position: relative;
+	padding-bottom: 60px; 
+}
+.aboutg-find-img img{
+	width: 100%;
+}
+.aboutg-find-img-box{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	padding-right: 0px; 
+}
+  
+}
+
+@media screen and (min-width:992px) and (max-width: 1199px){
+.encouraging-box p br{
+  display: none;
+}
+.encouraging-box p{
+	margin-top: 25px; 
+}
+.search-school-content h4{
+	font-size: 26px;
+}
+.search-school-content p{
+	margin-top: 8px;
+}
+.banner-form .form-top:after{
+	top: -19px;
+}
+
+.education-list-pagination .pagination{
+        padding-right: 26px;
+    }
+
+}
+
+@media screen and (max-width: 1199px){
+.banner-left-box{
+	width: 100%;
+}
+.banner-form{
+	width: 100%;
+}
+.banner-content-box {
+    padding-left: 40px;
+    padding-top: 36px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+}
+.banner-content-box h2{
+	font-size: 28px;
+	line-height: 38px;
+}
+.banner-content-box h2 br{
+	display: none;
+}
+.banner-content-box hr {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.banner-content-box p{
+	font-size: 24px;
+}
+
+
+.banner-top-cont h1{
+    font-size: 44px;
+}
+.banner-price h3{
+    font-size: 65px
+}
+.banner-price small {
+    font-size: 13px;
+    color: #fff;
+}
+img.form-arrow {
+    top: -73px;
+    right: -44px;
+    max-height: 120px;
+}
+.banner_next .b_form .b_form_left p.step-title{
+    font-size:16px; 
+}
+.banner-form .form-top{
+    padding: 22px 20px 22px 24px;
+}
+.banner-form .form-top h2{
+    padding-left: 62px;
+    font-size: 16px;
+}
+
+.banner-bot-cont-inn h3 br{
+    display: none;
+}
+
+.academic-sec figcaption h2.post-title {
+    font-size: 40px;
+}
+
+.academic-sec figcaption {
+    left: 15px;
+    right: 15px
+}
+.academic-sec figcaption .post-title{
+    font-size: 16px
+}
+
+.popular-prog figure figcaption h4{
+    font-size: 20px;
+}
+
+.post-detail .cont-box h3{
+    margin: 0 0 10px;
+    font-size: 27px;    
+}
+
+.education-list-item h4{
+    font-size: 20px;
+}
+.education-list-item p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    height: 42px;
+    overflow: hidden;
+}
+.author-info {
+    font-size: 13px;
+}
+
+
+#sidebar .popular-prog figure figcaption h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+#sidebar .popular-prog figure figcaption p {
+    height: 38px;
+    overflow: hidden;
+}
+
+.programslist ul li figure{
+    line-height: 1.2;
+}
+.programslist ul li figcaption a{
+    font-size: 15px;
+}
+.post-short-info p{
+    height: 70px;
+    overflow: hidden;
+}
+
+.post-detail h1{
+    font-size: 30px;
+}
+
+
+.contant-page h1 {
+    font-size: 33px;
+}
+
+.contant-page h2 {
+    font-size: 29px;
+}
+
+.contant-page h3 {
+    font-size: 26px;
+}
+
+.contant-page h4 {
+    font-size: 22px;
+}
+
+
+}
+
+
+@media screen and (min-width:768px) and (max-width: 991px){
+p {
+    font-size: 14px;
+}
+.header-right h4{
+    font-size: 21px;
+    margin-bottom: 4px;
+}
+.header-right p {
+    font-size: 14px;
+}
+
+.banner-top-cont h1{
+    font-size: 40px;
+}
+.banner-top-cont .banner-price {
+    margin-left: 10px;
+}
+.banner-price h3{
+    font-size: 60px;
+}
+.banner-price small {
+    font-size: 14px;
+}
+
+.banner-bot-cont-inn {
+    color: #fff;
+    padding: 27px 0 7px;
+}
+.banner-bot-cont-inn h3 br {
+    display: none;
+}
+.banner-bot-cont-inn h3 {
+    font-size: 16px;
+}
+.banner-bot-cont-inn h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.banner-bot-cont-inn p{
+    margin-bottom: 15px;
+}
+
+.banner_next .b_form .btn .prev a, 
+.banner_next .b_form .btn .next a, 
+.btn .style1.disable, .next .next-btn{
+    min-width: 140px;
+}
+
+.banner-bg{
+    height: 496px;
+}
+.banner-left-box{
+	width: 100%;
+	margin-bottom: 0px;
+}
+.banner-form{
+	width: 100%;
+}
+.banner-content-box {
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+}
+.banner-content-box h2{
+	font-size: 20px;
+	line-height: 36px;
+}
+.banner-content-box h2 br{
+	display: none;
+}
+.banner-content-box hr {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.banner-content-box p{
+	font-size: 18px;
+	line-height: 30px;
+}
+.banner-content-box p br{
+	display: none;
+}
+.banner-form .form-top h2{
+	font-size: 19px;
+}	
+.banner-form .form-top {
+    padding: 16px 20px 16px 20px;
+}
+.banner-form .form-top h5{
+	font-size: 11px;
+}
+.banner-form .form-content{
+	padding: 20px;
+}
+.bootstrap-select .dropdown-toggle.btn-default {
+    height: 52px;
+    line-height: 52px;
+    padding-left: 15px;
+    padding-right: 36px;
+    font-size: 15px;
+}
+.bootstrap-select .dropdown-toggle.btn-default:after{
+	font-size: 28px;
+}
+.banner-form .form-content .started-btn button {
+    font-size: 20px;
+    height: 62px;
+    line-height: 62px;
+}
+
+.education-list-item{
+    margin-right: 0;
+}
+.education-list-item figcaption{
+    padding-left: 16px;
+}
+.education-list-item figure img {
+    height: 135px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.education-list-item h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.education-list-item p {
+    margin-bottom: 6px;
+    font-size: 13px;
+    height: 38px;
+}
+.author-info {
+    font-size: 12px;
+}
+.education-list-pagination [class^='col-'] {
+    padding: 0 15px;
+}
+
+.education-list-pagination .page-link{
+    min-width: 36px;
+    height: 34px;
+    line-height: 1.1;
+}
+
+
+.banner_next .b_form .b_form_left p.step-title {
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.news-heading{
+    font-weight: 600;
+    font-size: 13px
+}
+
+.post-detail h1 {
+    font-size: 23px;
+}
+.bullet-list.foods-list li {
+    width: auto;
+    float: none;
+}
+.bullet-list li{
+    font-size: 15px;
+}
+.post-detail .cont-box h3 {
+    margin: 0 0 8px;
+    font-size: 24px;
+}
+.post-detail .cont-box {
+    margin-bottom: 25px;
+}
+
+.programslist ul li img {
+    max-width: 75px;
+}
+.programslist ul{
+    padding: 20px 13px;
+}
+.more-btn{
+    padding: 10px 15px;
+}
+.post-form .form-title p{
+    line-height: 1.3;
+    font-size: 15px;
+}
+#sidebar .popular-prog figure figcaption h4,
+.popular-prog figure figcaption h4 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+
+#sidebar .popular-prog figure figcaption h4{
+    margin-bottom: 6px;
+}
+#sidebar .popular-prog figure figcaption p{
+    font-size: 12px;
+}
+
+.post-short-info p{
+    font-size: 13px;   
+}
+#sidebar .author-info {
+    font-size: 11px;
+}
+
+.copy-right-box p{
+	font-size: 12px;
+}
+.copy-right-bg {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.contant-page h1 {
+    font-size: 33px;
+}
+
+.contant-page h2 {
+    font-size: 27px;
+}
+
+.contant-page h3 {
+    font-size: 24px;
+}
+
+.contant-page h4 {
+    font-size: 20px;
+}
+
+.thank-inn h1{
+    font-size: 55px;
+}
+.thank-inn h3 {
+    font-size: 22px;
+}
+
+.thank-inn h3 i img{
+    width: 32px;
+}
+
+
+
+}
+
+@media screen and (max-width: 767px){
+
+.d-none-767{
+    display: none;
+}
+
+.banner-top-cont{
+    text-align: center !important;
+}
+.banner-top-cont h1{
+    font-size: 40px;
+    z-index: 1;
+    position: relative;
+}
+.banner-top-cont .banner-price {
+    margin-left: 10px;
+    z-index: 1;
+    position: relative;
+}
+.banner-price h3{
+    font-size: 60px;
+}
+.banner-price small {
+    font-size: 14px;
+}
+.banner-bot-cont{
+    position: inherit;
+    margin: 60px 0 40px;
+    background: inherit;
+}
+
+.banner-bot-cont-inn{
+    color:#323232;
+        padding: 30px 0 0
+}
+
+.banner_next .b_form .btn .col-sm-6{
+    padding-left: 0;
+    padding-right: 0;
+    width: 50%;
+}
+.banner_next .b_form .btn .prev{
+    text-align: left;
+}
+
+img.form-arrow {
+    top: -88px;
+    right: -10px;
+    max-height: 130px;
+}
+
+.banner-form .form-top h2 {
+    padding-left: 0;
+    font-size: 24px;
+}
+
+
+.logo{text-align: center; margin-bottom: 15px;}
+.container {
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px; 
+}	
+.banner-bg{
+	background-image:none; 
+	padding-bottom: 0px;
+}
+.banner-bg:before{
+    content: none;
+}
+.banner-container{
+	padding: 0px !important;
+}
+.banner-container .row{
+	margin: 0px;
+}
+.banner-top-cont {
+    background: url(../images/banner.jpg) no-repeat top center;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 280px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+
+.banner_next .b_form .b_form_left p.step-title {
+    font-size: 18px;
+    text-align: center;
+}
+
+.banner-top-cont:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: "";
+    background: rgba(0,0,0,0.35);
+}
+
+.banner-form-box{
+    padding-left: 0px; 
+    padding-right: 0px; 
+    height: 390px;
+    margin-top: -140px;
+}
+
+.banner-form {
+    margin-top: 0;
+    max-width: inherit;
+}
+
+.banner-left-box {
+	margin-top: 32px;
+    margin-bottom:32px;
+}
+.banner-content-box {
+    text-align: center;
+}
+.banner-content-box h2 {
+    font-size: 30px;
+    line-height: 36px;
+}
+.banner-content-box p {
+   line-height: 34px;
+}
+
+.banner-inn {
+    /*position: inherit;*/
+    left: 34px;
+    right: 34px;    
+    box-shadow: 0px 0px 8px 0px rgba(38,38,38,0.5);
+    z-index: 2;
+}
+
+
+.news-sec {
+    margin-bottom: 25px;
+    border-bottom: none;
+}
+.news-sec .container{
+    max-width: inherit;
+    padding: 0;
+}
+.news-sec .container .col-md-12,
+.news-sec .container .row{
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.news-heading {
+    display: block;
+    text-align: center;
+    margin: 0;
+    background: #e1b74d;
+    font-size: 23px;
+}
+
+.news-cont {
+    display: block;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 13px 010px;
+}
+.academic-sec figure{
+    border: 5px solid rgba(255, 255, 255, 1);
+}
+.academic-sec figcaption h2.post-title {
+    font-size: 50px;
+}
+
+.academic-sec figcaption .post-title {
+    font-size: 21px;
+}
+.education-list-item h4 {
+    font-size: 24px;
+}
+
+
+
+#sidebar .popular-prog figure figcaption{
+    /*bottom: inherit;
+    top: 50%;
+    transform: translateY(-50%);*/
+}
+
+#sidebar .popular-prog figure figcaption h4{
+    font-size: 30px;
+}
+.popular-lable{
+        margin: 0 auto;
+    left: 0;
+    right: 0;
+    max-width: 144px;
+}
+.programslist ul li figure{
+    align-items: center;
+}
+.programslist ul li figcaption a{
+    font-size: 23px;
+}
+.programslist ul li figcaption a br{
+    display: none;
+}
+
+
+
+#sidebar .popular-prog figure figcaption p,
+#sidebar .popular-prog figure figcaption h4{
+    text-align: center;
+}
+.popular-prog figure img {
+    width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner-bot-cont-inn [class^='col-']{
+    width: 50%;
+}
+
+.banner-bot-cont-inn p{
+    color: #464646;
+    font-weight: 400;
+}
+
+
+.academic-sec {
+    margin: 0px 0 10px;
+}
+.education-list-sec {
+    margin-bottom: 25px;
+}
+#education-list {
+    order: 2;
+    -webkit-order: 2;
+    -ms-order: 2;
+    -moz-order: 2;
+    -o-order: 2;
+}
+.education-list-item{
+    margin-right: 0;
+}
+.education-list-pagination .pagination {
+    justify-content: center;
+    margin-bottom: 0;
+}
+.education-list-item figure img {
+    /*height: 158px;*/
+    object-fit: cover;
+    object-position: center;
+}
+
+
+#sidebar {
+    order: 1;
+    -webkit-order: 1;
+    -ms-order: 1;
+    -moz-order: 1;
+    -o-order: 1;
+    margin-bottom: 20px;
+}
+
+.post-form {
+    margin-bottom: 40px;
+}
+
+.recent-post-box{
+
+}
+
+.copy-right-box{
+  text-align: center;
+}
+.copy-right-box.privacy-text{
+	margin-top: 10px;
+	text-align: center;
+}
+.copy-right-box.privacy-text{
+	text-align: center;
+}
+.search-search-bg{
+  padding-top: 37px;
+  padding-bottom: 40px; 
+}
+
+
+.page-banner-content {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.page-banner-content h2 {
+    font-size: 30px;
+    margin-bottom: 6px;
+}
+
+.page-banner-content p {
+    font-size: 14px;
+}
+
+.contant-page {
+    padding: 40px 0 10px;
+}
+
+.contant-page h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.contant-page h2 {
+    font-size: 21px;
+}
+
+.contant-page h3 {
+    font-size: 19px;
+}
+
+.contant-page h4 {
+    font-size: 20px;
+}
+
+.contant-page h5 {
+    font-size: 18px;
+}
+
+.contant-page th,
+.contant-page td {
+    font-size: 14px;
+}
+
+.contant-page textarea,
+.contant-page input {
+    font-size: 15px;
+}
+
+
+#content-inn-banner h1{
+    font-size: 35px;
+}
+
+
+.thank-inn{
+    padding-left: 20px;
+    padding-right:20px;
+}
+.thank-inn h1{
+    font-size: 55px;
+}
+.thank-inn h3 {
+    font-size: 18px;
+}
+
+.thank-inn h3 i img{
+    width: 32px;
+}
+
+.thank-inn .back-btn {
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+
+
+}
+
+@media screen and (max-width: 576px){
+.container {
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+.banner-top-cont h1 {
+    font-size: 32px;
+}
+.banner-top-cont .banner-price {
+    margin-left: 0;
+}
+.banner-price h3 {
+    font-size: 48px;
+}
+.banner-price small {
+    font-size: 13px;
+}
+.banner-form .form-top h2{
+    font-size: 20px
+}
+
+.banner-inn {
+    left: 23px;
+    right: 23px;
+}
+
+.banner-content-box {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+.banner-content-box h2 {
+    font-size: 25px;
+}	
+.banner-content-box p {
+    font-size: 20px;
+}
+.banner-bot-cont-inn [class^='col-'] {
+    width: 100%;
+    margin-top: 25px;
+}
+.banner-bot-cont-inn h3{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.news-heading{
+    font-size: 19px;
+    padding: 10px 17px;
+}
+.academic-sec figcaption h2.post-title {
+    font-size: 32px;
+    max-width: inherit;
+}
+.academic-sec figcaption {
+    left: 25px;
+    right: 25px;
+}
+.academic-sec figcaption .post-title {
+    font-size: 21px;
+    max-width: 70%;
+}
+.programslist ul li figcaption a {
+    font-size: 19px;
+}
+
+.education-list-item {
+    margin-right: -15px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #f2f2f2;
+    padding-top: 5px;
+}
+.education-list-item figure {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    max-width: 262px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.education-list-item figure::before{
+    left: 0;
+}
+.education-list-item h4 {
+    font-size: 20px;
+}
+
+.education-list-item figure img{
+    height: auto;
+}
+.education-list-item figcaption{
+    margin-left: 15px;
+    margin-right: 15px;
+    background: transparent;
+}
+
+.post-detail h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.post-detail .cont-box h3{
+    font-size: 24px;
+}
+.bullet-list li{
+    font-size: 15px;
+}
+
+.recent-post-sec {
+    margin: 25px 0 20px;
+}
+.recent-post-sec .recent-post-box{
+    margin-bottom: 15px;
+}
+
+.copy-right-bg {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.copy-right-box p {
+    font-size: 11px;
+    line-height: 18px;
+}
+
+
+.contant-page {
+    padding: 30px 0 10px;
+}
+
+.cont-col {
+    margin-bottom: 20px;
+}
+
+.contant-page h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.contant-page h2,
+.contant-page h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.contant-page h4,
+.contant-page h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contant-page h6 {
+    margin-bottom: 10px;
+}
+
+.contant-page th,
+.contant-page td {
+    font-size: 14px;
+}
+
+.contant-page,
+.contant-page p {
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.contant-page textarea,
+.contant-page input {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.thank-inn {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 44px;
+    padding-bottom: 60px;
+}
+.thank-inn h1{
+    font-size: 45px;
+}
+.thank-inn h3 {
+    font-size: 16px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 480px){
+
+.banner-top-cont h1 {
+    font-size: 27px;
+}
+.banner-price h3 {
+    font-size: 41px;
+}
+
+.banner-form .form-top {
+    padding: 19px 20px 19px 20px;
+}
+.banner-form .form-top h2 {
+    font-size: 22px;
+}
+.banner-form .form-top h5 {
+    font-size: 12px;
+}
+.banner-form .form-content{
+    padding: 27px 20px;
+}
+.banner-inn{
+    left: 20px;
+    right: 20px;
+}
+.startnow{
+    left: 5px;
+}
+
+.frm-field .field-box select#state, #DivStep5 input {
+    padding-left: 44px !important;
+}
+.pnone-box span i {
+    margin-right: 5px;
+}
+.pnone-box span font.mob{
+    display: inline-block;
+}
+.pnone-box span font.desk{
+    display: none;
+}
+
+.banner_next .b_form .btn .prev a, 
+.banner_next .b_form .btn .next a, 
+.btn .style1.disable, .next .next-btn{
+    min-width: 105px;
+    font-size: 17px;
+}
+
+.banner-form .form-top {
+    padding: 19px 10px 19px 100px;
+    text-align: left;
+}
+.banner-form .form-top h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.banner-form-box{
+    margin-top: -105px;
+}
+.banner_next .b_form .b_form_left p.step-title{
+    font-size: 16px;
+    line-height: 1.3;
+    min-height: 58px;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.banner-top-cont .banner-price{
+    display: block;
+}
+.banner-form-box img.form-arrow{
+    display: none;
+}
+.banner-bot-cont{
+    margin: 60px 0 25px;
+}
+#DivStep31 .b_form label, #DivStep3 .b_form label, #DivStep4 .b_form label{
+    font-size: 15px;
+}
+
+.bootstrap-select .dropdown-toggle.btn-default {
+    height: 50px;
+    line-height: 50px;
+}
+.banner-form .form-content .started-btn button {
+    font-size: 22px;
+    height: 62px;
+    line-height: 62px;
+}
+.banner-bot-cont-inn [class^='col-'] {
+    margin-top: 20px;
+}
+.banner-bot-cont-inn h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+.banner-bot-cont-inn h4 {
+    margin-bottom: 8px;
+    font-size: 19px;
+}
+
+.academic-sec figcaption h2.post-title {
+    font-size: 23px;
+}
+
+
+#sidebar .popular-prog figure figcaption h4 {
+    font-size: 23px;
+}
+#sidebar .popular-prog figure figcaption{
+  top: inherit;  
+}
+.academic-sec figcaption .post-title{
+    width: auto;
+}
+.programslist ul {
+    padding: 20px 19px;
+}
+.programslist ul li figcaption a {
+    font-size: 16px;
+}
+
+.bullet-list.foods-list li{
+    width: 100%;
+}
+.post-detail .cont-box h3 {
+    font-size: 22px;
+}
+.post-detail .cont-box{
+    margin-bottom: 20px;
+}
+	
+.post-social li a{
+    font-size: 12px;
+    margin:5px 0;
+}    
+
+
+.thank-inn h1{
+    font-size: 35px;
+}
+.thank-inn h3 {
+    font-size: 15px;
+    line-height: 19px
+}
+
+.thank-inn h3 i img {
+    width: 29px;
+}
+.thank-inn .back-btn {
+    padding: 10px 17px;
+    font-size: 13px;
+}
+
+
+}
+
+@media screen and (max-width: 360px){
+.academic-sec figcaption {
+    left: 15px;
+    right: 15px;
+}
+.banner-bot-cont {
+    margin: 80px 0 25px;
+}
+
+}
