@@ -239,11 +239,6 @@ p {
     margin-bottom: 15px;
 }
 
-.banner_next .b_form .btn .prev a, 
-.banner_next .b_form .btn .next a, 
-.btn .style1.disable, .next .next-btn{
-    min-width: 140px;
-}
 
 .banner-bg{
     height: 496px;
@@ -290,21 +285,6 @@ p {
 }
 .banner-form .form-content{
 	padding: 20px;
-}
-.bootstrap-select .dropdown-toggle.btn-default {
-    height: 52px;
-    line-height: 52px;
-    padding-left: 15px;
-    padding-right: 36px;
-    font-size: 15px;
-}
-.bootstrap-select .dropdown-toggle.btn-default:after{
-	font-size: 28px;
-}
-.banner-form .form-content .started-btn button {
-    font-size: 20px;
-    height: 62px;
-    line-height: 62px;
 }
 
 .education-list-item{
@@ -478,16 +458,13 @@ p {
 
 .banner-bot-cont-inn{
     color:#323232;
-        padding: 30px 0 0
+        padding: 0px 0 0
 }
 
 .banner_next .b_form .btn .col-sm-6{
     padding-left: 0;
     padding-right: 0;
     width: 50%;
-}
-.banner_next .b_form .btn .prev{
-    text-align: left;
 }
 
 img.form-arrow {
@@ -586,6 +563,7 @@ img.form-arrow {
 .news-sec {
     margin-bottom: 25px;
     border-bottom: none;
+    display: none;
 }
 .news-sec .container{
     max-width: inherit;
@@ -628,13 +606,6 @@ img.form-arrow {
     font-size: 24px;
 }
 
-
-
-#sidebar .popular-prog figure figcaption{
-    /*bottom: inherit;
-    top: 50%;
-    transform: translateY(-50%);*/
-}
 
 #sidebar .popular-prog figure figcaption h4{
     font-size: 30px;
@@ -1036,25 +1007,6 @@ img.form-arrow {
     left: 5px;
 }
 
-.frm-field .field-box select#state, #DivStep5 input {
-    padding-left: 44px !important;
-}
-.pnone-box span i {
-    margin-right: 5px;
-}
-.pnone-box span font.mob{
-    display: inline-block;
-}
-.pnone-box span font.desk{
-    display: none;
-}
-
-.banner_next .b_form .btn .prev a, 
-.banner_next .b_form .btn .next a, 
-.btn .style1.disable, .next .next-btn{
-    min-width: 105px;
-    font-size: 17px;
-}
 
 .banner-form .form-top {
     padding: 19px 10px 19px 100px;
@@ -1086,19 +1038,7 @@ img.form-arrow {
 .banner-bot-cont{
     margin: 60px 0 25px;
 }
-#DivStep31 .b_form label, #DivStep3 .b_form label, #DivStep4 .b_form label{
-    font-size: 15px;
-}
 
-.bootstrap-select .dropdown-toggle.btn-default {
-    height: 50px;
-    line-height: 50px;
-}
-.banner-form .form-content .started-btn button {
-    font-size: 22px;
-    height: 62px;
-    line-height: 62px;
-}
 .banner-bot-cont-inn [class^='col-'] {
     margin-top: 20px;
 }

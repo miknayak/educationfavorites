@@ -65,6 +65,23 @@ h4 {font-size: 24px}
 h5 {font-size: 20px}
 h6 {font-size: 14px; font-weight:500;}
 
+
+.mask {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  display: none;
+  height: 100%;
+  left: 0;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+body.masking .mask {
+  display: block;
+}
+
 /*---------------------------  
           3. Header
 ---------------------------*/
@@ -237,7 +254,7 @@ h6 {font-size: 14px; font-weight:500;}
 .banner-form {
     width: 100%;
     float: right;
-    margin-top:20px;
+    margin-top:30px;
     /*margin-top: 42px;*/
     position: relative;
     max-width: 435px;
@@ -317,201 +334,8 @@ z-index: 9;
    width: 100%;
    float: left;
    padding-bottom: 20px;
+   min-height: 335px;
 }
-.banner-form .form-content .select-box{
-	width: 100%;
-	float: left;
-	margin-bottom: 15px;
-	position: relative;
-	background: #fff;
-}
-.banner-form .form-content .select-box select{
-	height: 45px;
-	line-height: 45px;
-	width: 100%;
-	padding-left:20px;
-	padding-right:40px; 
-	border: 0px;
-	outline: none;
-	cursor: pointer;
-	-webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    color:#002852;
-    font-size: 15px;
-    font-weight:normal;
-    background: transparent;
-    position: relative;
-    z-index: 2;
-}
-.banner-form .form-content .select-box:after{
-	content: "\f107";
-	font-family: fontawesome;
-	color:#052d56;
-	font-size:28px;  
-	position: absolute;
-	top: 50%;
-	transform: translate(0, -50%);
-	right: 15px;
-	z-index: 0;
-}
-.banner-form .form-content .zip-box{
-	width: 100%;
-	float: left;
-	margin-bottom: 10px;
-}
-.banner-form .form-content .zip-box input{
-   height: 45px;
-	line-height: 45px;
-	width: 100%;
-	border: 0px;
-	outline: none;	
-    color:#fefefe;
-    font-size: 15px;
-    font-weight:normal;
-    background:#335375;
-    border: 1px solid #8094a9; 
-    padding-left:20px;
-	padding-right:40px; 
-}
-
-.banner-form .form-content .zip-box input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color:#fff; opacity: 1;
-}
-.banner-form .form-content .zip-box input::-moz-placeholder { /* Firefox 19+ */
-  color:#fff; opacity: 1;
-}
-.banner-form .form-content .zip-box input:-ms-input-placeholder { /* IE 10+ */
-  color:#fff; opacity: 1;
-}
-.banner-form .form-content .zip-box input:-moz-placeholder { /* Firefox 18- */
-  color:#fff; opacity: 1;
-}
-.banner-form .form-content .started-btn {
-  width: 100%;
-  float: left;
-  margin-top: 3px; 
-}
-
-.banner-form .form-content .started-btn button{
-  font-size: 24px;
-  color:#262626;
-  text-align: center;
-  font-weight: 700;
-  border: 0px;
-  height: 70px;
-  line-height: 70px;
-  width: 100%;
-  background:transparent;
-  cursor: pointer; 
-  position: relative;
-  padding: 0px;
-  outline: none;
-  text-transform: uppercase;
-  border-bottom: 4px solid #a66628; 
-  z-index:0;
-  overflow: hidden;
-  font-family: 'oswaldbold';
-}
-.banner-form .form-content .started-btn button:before,
-.banner-form .form-content .started-btn button:after{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    height:100%;
-    background:#a66628;
-    z-index: -1;
-    transform: translate3D(0, 100%,0);
-    transition: all .5s;
-    cursor: pointer;
-}
-.banner-form .form-content .started-btn button:before{
-	background: #ee9139;
-    z-index: -2;
-    transform: translate3D(0,0,0);
-}
-.banner-form .form-content .started-btn button:hover:after{
-  height: 100%;
-  transform: translate3D(0,0,0);
-  transition: all .5s;
-}
-
-
-.bootstrap-select{
-	width: 100% !important;
-}
-.bootstrap-select .dropdown-toggle.btn-default{
-  border: 0px;
-  padding: 0px;
-  outline: none !important;
-  box-shadow: none;
-  height: 55px;
-  line-height:55px;
-  padding-left: 20px;
-  padding-right:39px;
-  color: #231f20;
-  font-size: 16px;
-  background: #fff;
-  border-radius: 0px;
-}
-.bootstrap-select .dropdown-toggle.btn-default:focus{
-	box-shadow: none !important;
-	background: #fff;
-}
-.bootstrap-select .dropdown-toggle.btn-default:after{
-	content: "\f107";
-    font-family: fontawesome;
-    color: #002852;
-    font-size: 32px;
-    top: 50%;
-    transform: translate(0, -50%);
-    right: 15px;
-    border: 0px;
-    margin: 0px;
-}
-.bootstrap-select .dropdown-menu{
-	border-radius: 0px; 
-	min-height: auto !important;
-	z-index: 123;
-	margin-top: 1px;
-	border: 0px;
-	padding: 0px;
-}
-.bootstrap-select .dropdown-menu .dropdown-menu.inner{
-	min-height: auto !important;
-	overflow:hidden;
-}
-.bootstrap-select .dropdown-menu .dropdown-menu.inner a{
-	font-size:15px;
-	color: #002852;
-	padding:11px 37px 11px 20px;  
-}
-.bootstrap-select .dropdown-menu .dropdown-menu.inner a span{
-	outline: none !important; 
-}
-.bootstrap-select .dropdown-menu .dropdown-menu.inner a:hover{
-	background:#4c2d8a;
-	color: #fff; 
-}
-.bootstrap-select .dropdown-menu .dropdown-menu.inner a.selected{
-	border: 0px !important;
-	box-shadow: none !important;
-	outline: none !important;
-}
-.bootstrap-select .dropdown-menu .dropdown-menu.inner a.selected:focus{
-	border: 0px !important;
-	box-shadow: none !important;
-	background:#4c2d8a;
-	color: #fff; 
-	outline: none !important;
-}
-.bootstrap-select .dropdown-menu .dropdown-menu.inner a.dropdown-item-inner {
-	outline: none;
-}
-
 
 
 
