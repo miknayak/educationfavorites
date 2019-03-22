@@ -504,6 +504,7 @@ z-index: 9;
     position: absolute;
     left: 30px;
     top: -1px;
+    z-index: 99;
 }
 .fav-post img {
     height: auto;
@@ -635,6 +636,7 @@ span.name{
     font-size: 13px;
     letter-spacing: 0.4px;
     font-weight: 500;
+    z-index: 9;
 }
 .popular-prog figure img{
   width: 100%;
@@ -773,6 +775,7 @@ span.name{
 #sidebar .recent-post-box{
   margin-top: 20px;
 }
+
 #sidebar .recent-post-box figure:hover h4{
   color: #e2b84c;
   text-decoration: underline;
